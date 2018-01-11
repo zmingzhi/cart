@@ -1,0 +1,23 @@
+{
+  "name": "zongphp/cart",
+  "description": "购物车处理类",
+  "keywords": [
+    "zongphp",
+    "cart",
+    "购物车"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "zongphp/session": "~2.0",
+    "zongphp/cookie": "~2.0",
+    "zongphp/arr": "~2.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "zongphp\\cart\\": "src"
+    }
+  }
+}
